@@ -2,7 +2,7 @@ import Head from "next/head";
 
 import { useEffect, useState } from "react";
 import { io } from "socket.io-client";
-// import UsernameField from "../components/UsernameField";
+import UsernameField from "./components/UsernameField";
 
 import styles from "../styles/Home.module.css";
 
